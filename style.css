@@ -50,13 +50,11 @@ a {
     margin: 100px;
     justify-content: space-around;
     gap: 20px;
-
 }
 
 .hb-left {
     display: flex;
     flex-direction: column;
-
 }
 
 .hb-right {
