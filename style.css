@@ -5,7 +5,6 @@
 .header { 
     color: white;
     background-color: #1f2937;
-
 }
 
 .header-top {
@@ -13,11 +12,18 @@
     justify-content: space-around;
     margin-left: 100px;
     margin-right: 100px;
+    padding: 10px;
+}
+
+.header-logo {
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 ul { 
     display: flex;
     list-style: none;
+    gap: 20px;
 }
 
 a {
@@ -39,6 +45,16 @@ a {
 .header-body {
     display: flex;
     padding: 100px;
+    margin: 100px;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+.hb-left {
+    display: flex;
+    flex-direction: column;
+
 }
 
 .hb-right {
@@ -46,6 +62,14 @@ a {
 }
 
 img {
-    max-width: 300px;
-    max-height: 300px;
+    max-height: 200px;
+}
+
+.sign-up {
+    color: white;
+    background-color: #3882f6;
+    width: 90px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 8px;
 }
