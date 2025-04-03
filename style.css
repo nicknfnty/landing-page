@@ -35,11 +35,13 @@ a {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 900;
+    max-width: 444px;
 }
 
 .title-sub {
     color: #e5e7eb;
     font-size: 18px;
+    max-width: 444px;
 }
 
 .header-body {
@@ -63,6 +65,7 @@ a {
 
 img {
     max-height: 200px;
+    margin-left: 44px;
 }
 
 .sign-up {
@@ -72,4 +75,5 @@ img {
     padding: 5px;
     margin: 5px;
     border-radius: 8px;
+    border: none;
 }
