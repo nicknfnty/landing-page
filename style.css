@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
 * {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 html, body {
@@ -121,7 +124,6 @@ img {
 span { 
    text-align: center;
    padding: 0;
-   margin-right: ;
 }
 
 .section3 {
@@ -135,7 +137,6 @@ span {
     padding: 150px;
     margin-left: 200px;
     margin-right: 200px;
-
 }
 
 .quote {
@@ -150,14 +151,12 @@ span {
     text-align: right;
     font-weight: bold;
     font-size: 24px;
-    padding: 20px
-    
+    padding: 20px;
 }
 
 .section4 {
     background-color: white;
-    padding: 10px
-
+    padding: 10px;
 }
 
 .cta {
@@ -166,6 +165,10 @@ span {
     justify-content: center;
     align-items: center;
     padding: 100px;
+}
+.action {
+    font-size: 22px;
+    font-weight: 900;
 }
 
 .bluebox {
@@ -202,4 +205,8 @@ span {
     display: flex;
     justify-content: center;
     padding: 30px;
+}
+
+button { 
+    cursor: pointer;
 }
