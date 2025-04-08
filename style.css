@@ -78,3 +78,44 @@ h1 {
     cursor: pointer;
     padding: 5px;
 }
+
+.sec2 {
+
+}
+
+.sec2-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 50px;
+    color: #1f2937;
+}
+
+.square {
+    border: 4px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+
+.squares {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 10px;
+}
+
+.sub2 {
+    color: gray;
+    font-size: 18px;
+}
