@@ -144,10 +144,6 @@ h1 {
  font-size: 24px;
 }
 
-.sec4 {
-
-   
-}
 .sec4-body {
     display: flex;
     color: white;
@@ -157,7 +153,7 @@ h1 {
     padding: 50px;
     margin: 200px;
     margin-top: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     border-radius: 10px;
 }
 
@@ -177,4 +173,15 @@ h1 {
     border-radius: 4px;
     padding: 7px;
     width: 100px;
+    cursor: pointer;
+}
+
+.foot {
+    background-color: #1f2937;
+    color: rgb(184, 184, 184);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 45px;
 }
